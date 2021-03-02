@@ -1,0 +1,229 @@
+/* =====================
+        MEDIA
+====================== */
+
+/* ====================
+    Extra samll
+=====================*/
+
+@media (max-width: 575px) {
+    /* ==================== */
+    .banner{
+        height: 400px;
+        text-align: center;
+    }
+    .banner nav{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 1);
+        z-index: 65;
+    }
+    .banner .info h1{
+        font-size: 18px;
+        margin-top: 120px;
+        /* margin-left: -150px; */
+        font-weight: 600;
+    }
+    .banner .info a{
+        /* margin-left: -170px; */
+        font-size: 13px;
+        width: 120px;
+        height: 30px;
+        line-height: 17px;
+        margin-top: 20px;
+    }
+    /* ==================== */
+ 
+    .kard .san{
+        /* width: 90%; */
+        position: absolute;
+        margin-top: 300px !important;
+        /* margin-left: -200px !important; */
+        /* padding-left: 15%; */
+        /* padding-right: 15%; */
+        z-index: -999;
+    }
+    .kard .san img{
+        width: 100%;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+    }
+    .kard .message {
+        border-bottom-left-radius: 17px;
+    }
+    .kard .rasm3{
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+    }
+    .picture h3{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .picture{
+        padding-top: 850px;
+        /* padding-left: 23%;
+        padding-right: 23%; */
+    }
+    .picture .card{
+        margin-top: 20px;
+    }
+}
+
+/* ===================
+    Samall
+=====================*/
+
+@media (min-width: 576px) and (max-width: 767px){
+    /* ==================== */
+    .banner{
+        height: 400px;
+        text-align: center !important;
+    }
+    .banner nav{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 1);
+        z-index: 65;
+    }
+    .banner .info h1{
+        font-size: 25px;
+        margin-top: 80px;
+        margin-left: -30px;
+        font-weight: 600;
+    }
+    .banner .info a{
+        /* margin-left: -170px; */
+        font-size: 15px;
+        width: 150px;
+        height: 40px;
+        line-height: 23px;
+        margin-top: 20px;
+    }
+    /* ==================== */
+    .double img{
+        width: 100%;
+    }
+    .kard .san{
+        width: 100%;
+        position: absolute;
+        margin-top: 300px !important;
+        margin-left: 25% !important;
+        /* padding-left: 15%; */
+        /* padding-right: 15%; */
+        z-index: -999;
+    }
+    .kard .san img{
+        width: 100%;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+    }
+    .kard .message {
+        border-bottom-left-radius: 17px;
+    }
+    .kard .rasm3{
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+    }
+    .picture h3{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .picture{
+        padding-top: 850px;
+        padding-left: 23%;
+        padding-right: 23%;
+    }
+    .picture .card{
+        margin-top: 20px;
+    }
+}
+
+/* ===================
+    Medium
+=====================*/
+
+@media (min-width: 768px) and (max-width: 992px){
+    /* ==================== */
+    .banner{
+        height: 400px;
+        text-align: center !important;
+    }
+    .banner nav{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 1);
+        z-index: 65;
+    }
+    .banner .info h1{
+        font-size: 25px;
+        margin-top: 80px;
+        font-weight: 600;
+    }
+    .banner .info a{
+        /* margin-left: -170px; */
+        font-size: 15px;
+        width: 150px;
+        height: 40px;
+        line-height: 23px;
+        margin-top: 20px;
+    }
+    /* ==================== */
+}
+
+
+/* ===================
+    Large
+=====================*/
+
+@media (min-width: 992px) and (max-width: 1200px){
+    /* ==================== */
+    .banner{
+        width: 100%;
+        height: 550px;
+        text-align: center !important;
+    }
+    .banner nav{
+        align-self: center;
+    }
+    .banner .info h1{
+        font-size: 50px !important;
+        margin-top: -20px;
+        font-weight: 600;
+    }
+    .banner .info a{
+        /* margin-left: -170px; */
+        font-size: 15px;
+        width: 200px;
+        height: 60px;
+        line-height: 43px;
+        margin-top: 20px;
+    }
+    /* ==================== */
+
+}
+
+/* ===================
+    Extra large
+=====================*/
+
+@media (min-width: 1200px){
+    /* =================== */
+    .banner{
+        height: 100vh;
+        text-align: center !important;
+    }
+    .banner nav{
+        
+    }
+    .banner .info h1{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .banner .info a{
+        /* margin-left: -170px; */
+        font-size: 18px;
+        width: 220px;
+        height: 60px;
+        line-height: 45px;
+        margin-top: 20px;
+    }
+    /* ==================== */
+
+}

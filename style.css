@@ -8,6 +8,7 @@
     width: 100%;
     height: 100vh;
     background: url(img/banner-img.jpg);
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -37,6 +38,7 @@
 .info h1{
     font-size: 65px;
     margin-bottom: 3%;
+    text-transform: uppercase;
 }
 .info .btn{
     width: 220px;
@@ -231,5 +233,137 @@
     border: 2px solid white;
 }
 
+.feed{
+    margin-top: -50px;
+    padding-top: 70px;
+    background-color: #F7F0F1;
+}
+.feed .card{
+    border-radius: 17px;
+    background-color: white !important;
+}
+.twit{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 113px;
+    z-index: 999;
+    /* top: 200px;
+    left: 200px; */
+}
+.feed .card:hover{
+    box-shadow: none;
+    transform: none;
+}
+.feed .card{
+    box-shadow: 0px 0px 10px black !important;
+}
+.feed h3{
+    color: rgb(104, 95, 95);
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.feed .card span{
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #0392D3;
+}
+.feed .card p{
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+.feed .card .btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.ins img:hover{
+    border-radius: 17px;
+    transition: 400ms;
+    transform: scale(1.02);
+    box-shadow: 0 0 20px black;
+}
+.icons span img{
+    transform: scale(1.2);
+    margin-right: 40px;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+.icons span img:hover{
+    transform: scale(1.7);
+}
+.footer{
+    height: 100vh;
+    background-color: #E90E65;
+}
+.qwe{
+    background-color: #E90E65;
+    height: 100vh;
+}
+.login{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.login input{
+    height: 50px;
+    border-radius: 25px;
+    text-indent: 10px;
+    font-family: sans-serif !important;
+}
+.login textarea{
+    height: 170px !important;
+    border-radius: 25px !important;
+    font-family: sans-serif;
+}
+.login button{
+    width: 150px;
+    height: 50px;
+    background-color: #E90E65;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.login h3{
+    color: #E90E65;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.spiner{
+    width: 100%;
+    height: 100vh;
+    background-color: #DDDDDD !important;
+}
+
+.end{
+    width: 100%;
+    height: 110px;
+    background-color: #282526;
+    font-size: 17px;
+}
+.end h6{
+    font-family: monospace;
+    color: white;
+    font-weight: 500;
+    line-height: 100px;
+    letter-spacing: -2px;
+}
+.end a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+}
+.end a:hover{
+    color: #E90E65;
+    font-weight: 600;
+}
 
 
