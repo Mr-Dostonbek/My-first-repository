@@ -1,0 +1,235 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(img/banner-img.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.fon{
+    background: linear-gradient(rgba(20, 6, 6, 0.1), rgba(0,0,0,.5), rgba(0,0,0,.8), rgba(0,0,0,1));
+    width: 100%;
+    height: 100%;
+}
+.banner .navbar-collapse{
+    margin-top: 3%;
+}
+.banner .navbar-collapse ul li a{
+    color: white !important;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 400ms ease-in-out;
+}
+.banner .navbar-collapse ul li a:hover{
+    color: red !important;
+    transform: rotate3d(10%);
+}
+.info{
+    margin-top: 11%;
+}
+.info h1{
+    font-size: 65px;
+    margin-bottom: 3%;
+}
+.info .btn{
+    width: 220px;
+    height: 60px;
+    border-radius: 25px;
+    border: 2px solid red;
+    box-shadow: none;
+    background: none;
+    line-height: 43px;
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+}
+.line{
+    width: 70px;
+    border: 2px solid #E90E65;
+    background-color: #E90E65;
+    justify-self: center;
+}
+.message{
+    text-align: justify;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+.message p{
+    line-height: 1.5;
+}
+.message a{
+    width: 170px;
+    height: 50px;
+    border: 3px solid #E90E65;
+    border-radius: 25px;
+    line-height: 35px;
+}
+.message a:hover{
+    color: white;
+    background-color: #E90E65;
+    box-shadow: 0 0 10px #E90E65;
+}
+.kard{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 180px;
+    z-index: 9999;
+}
+.img3{
+    border-top-left-radius: 10px;
+}
+.duble .rasm3,.rasm3{
+    background: linear-gradient(rgba(0,0,0,.5),black);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.picture{
+    background-color: #E90E65;
+    padding-top: 300px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 150px;
+}
+.picture .card{
+    border-radius: 100px !important;
+}
+.recentimg{
+    border: none;
+    border-radius: 17px;
+}
+.recent{
+    transition: all 0.4s ease-in-out;
+    border: none;
+}
+.recent:hover{
+    transform: scale(1.07);
+    opacity: 0.8;
+}
+.recent:hover p{
+    color: white !important;
+}
+.card .card-title img{
+    cursor: pointer;
+}
+.card .text{
+    margin-top: 340px;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cards-img{
+    background: linear-gradient(rgba(0,0,0,.5),black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 17px;
+}
+.galereya .card{
+    border-radius: 17px;
+}
+.card:hover{
+    transition: 500ms;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px black;
+}
+.port .card:hover .cards-img{
+    background: none;
+}
+.port .card-text{
+    margin-top: 160px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.port h3{
+    font-weight: 700 !important;
+    color: rgb(75, 66, 66);
+}
+.port{
+    background-color: #F2D5D7;
+    padding-bottom: 100px;
+}
+.port .ios{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 618px;
+}
+
+.the{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #F3E7E8;
+}
+.the p{
+    margin-top: 460px;
+    font-size: 20px;
+}
+.the h6{
+    display: none;
+}
+.the .card{
+    border-radius: 17px;
+}
+.the .card:hover .cards-img{
+    background: none;
+    color: #E90E65;
+}
+.the .card:hover p,h6{
+    color: orange;
+    font-weight: 500;
+    font-size: 20px;
+}
+.the .card:hover h6{
+    display: block;
+}
+.the h3{
+    font-weight: 600;
+    color: rgb(77, 64, 64);
+}
+
+.says{
+    background-color: #E90E65;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.po{
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    margin-top: 30px;
+}
+.scile .two:hover{
+    transition: 500ms;
+    transform: scale(1.2);
+}
+.scile .scr:hover{
+    transition: 500ms;
+    transform: scale(2);
+    margin-bottom: 50px;
+}
+.scile .two:hover .po{
+    color: white !important;
+    /* margin-top: 50px; */
+}
+.scile .scr:hover .po{
+    color: white !important;
+    /* margin-top: 50px; */
+}
+.scile .bor{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+
